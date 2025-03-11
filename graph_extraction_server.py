@@ -20,7 +20,7 @@ from utils.neo4jtool import save_to_neo4j
 def main():
 
     while True:
-        user_input = input("Please enter a user instruction or file path (or type 'exit' to quit): ")
+        user_input = input("Please enter a  file path (or type 'exit' to quit)(or type “test” for default KG extraction): ")
         if user_input.lower() == 'exit':
             break
         elif user_input.lower() == 'test':
